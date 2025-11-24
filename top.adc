@@ -1,0 +1,22 @@
+set_pin_assignment	{ clk }	{ LOCATION = T14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ lpc_clk }	{ LOCATION = M2; IOSTANDARD = PCI33; PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lad[0] }	{ LOCATION = B3; IOSTANDARD = PCI33;  PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lad[1] }	{ LOCATION = C3; IOSTANDARD = PCI33;  PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lad[2] }	{ LOCATION = E2; IOSTANDARD = PCI33;  PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lad[3] }	{ LOCATION = E4; IOSTANDARD = PCI33;  PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lframe_n }	{ LOCATION = M3; IOSTANDARD = PCI33; PULLTYPE = NONE; }
+set_pin_assignment	{ lpc_lreset_n }	{ LOCATION = L1; IOSTANDARD = PCI33; PULLTYPE = NONE; }
+set_pin_assignment	{ reset_n }	{ LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ seg7_common[0] }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_common[1] }	{ LOCATION = B8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[0] }	{ LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[1] }	{ LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[2] }	{ LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[3] }	{ LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[4] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg7_segment[5] }	{ LOCATION = A10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ seg7_segment[6] }	{ LOCATION = A9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+
+
+
+
